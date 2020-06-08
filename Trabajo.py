@@ -4,16 +4,13 @@ import librosa.display
 import numpy as np
 import matplotlib.pyplot as plt
 import scipy.signal as signal
-from linearFIR import filter_design
 import LinearFIR_2
 import pywt
-import wavelet_filtering as wavelet
 import scipy.io.wavfile as wavf
 from scipy.signal import welch
 from scipy.stats import mannwhitneyu
 import os
 import pandas as pd
-import time
 
 
 #%%Cremos las funciones necesarias para el cumplimiento de los puntos planteados
